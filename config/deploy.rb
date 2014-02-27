@@ -16,6 +16,7 @@ set :deploy_via, :copy
 set :use_sudo, false    
 set :scm, "git"
 set :repository, "."
+set :repo_url, "file:///Users/mafai/Dropbox/Projects/library"
 set :local_repository, "."
 set :branch, "master"
 
