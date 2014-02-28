@@ -4,7 +4,8 @@
 # server in each group is considered to be the first
 # unless any hosts have the primary property set.
 # Don't declare `role :all`, it's a meta role
-server 'www.geekfocus.cc', user:'mafai', roles: [:db, :web, :app]
+#server 'www.geekfocus.cc', user:'mafai', roles: [:db, :web, :app]
+server 'mmz.geekfocus.cc', :app, :web, :db,:primary => true
 #role :app, %w{www.geekfocus.cc}
 #role :web, %w{www.geekfocus.cc}
 #role :db,  %w{www.geekfocus.cc}
