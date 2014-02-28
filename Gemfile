@@ -49,4 +49,6 @@ gem "devise", "~> 3.2.3"
 gem "capistrano", "~> 3.1.0"
 gem "unicorn", "~> 4.8.2"
 
-
+group :development do
+  gem 'capistrano3-unicorn'
+end
