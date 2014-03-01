@@ -48,8 +48,8 @@ gem "rails_admin", "~> 0.6.1"
 gem "devise", "~> 3.2.3"
 gem "unicorn", "~> 4.8.2"
 
-#group :development do
+group :development do
   gem "rvm-capistrano", "~> 1.5.1"
   gem "capistrano", "~> 2.15.5"
   gem "capistrano-unicorn", "~> 0.2.0"
-#end
+end
